@@ -2,7 +2,6 @@ console.log('yo')
 
 
 function deleteFeed() {
-    console.log(420)
     var element = document.getElementById('contentArea');
     if(element){
         element.parentElement.removeChild(element);
