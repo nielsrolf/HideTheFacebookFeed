@@ -1,6 +1,6 @@
   {
     "name": "Hide the Facebook feed",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Need facebook for events and messages, but don't want to get sucked into the news feed? This is the solution",
     "manifest_version": 2,
     "content_scripts": [

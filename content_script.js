@@ -1,8 +1,7 @@
-function deleteFeed() {
-    var element = document.getElementById('contentArea');
-    if(element){
+function removeShit() {
+    document.querySelectorAll('[role="feed"]').forEach(element => {
         element.parentElement.removeChild(element);
-    }
+    });
 }
 
-let deleteAttempt = setInterval(deleteFeed, 100);
+let deleteAttempt = setInterval(removeShit, 100);
